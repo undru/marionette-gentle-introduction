@@ -47,7 +47,6 @@ ContactManager.module("ContactsApp.List", function(List, ContactManager, Backbon
               }
               else{
                 view.triggerMethod("form:data:invalid", model.validationError);
-                view.triggerMethod("something:is:triggered", "yes, it is triggered");
               }
             });
             

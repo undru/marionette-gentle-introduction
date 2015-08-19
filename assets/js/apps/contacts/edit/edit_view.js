@@ -44,10 +44,6 @@ ContactManager.module("ContactsApp.Edit", function(Edit, ContactManager, Backbon
 
       clearFormErrors();
       _.each(errors, markErrors);
-    },
-    
-    onSomethingIsTriggered: function(e){
-        alert(e);
     }
   });
 });
